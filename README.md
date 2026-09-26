@@ -206,16 +206,3 @@ Validate syntax:
 python -m py_compile ai_analyst\app.py ai_analyst\analyst.py databricks\favorita_pipeline.py
 ```
 
-## Security notes
-
-- Rotate any API key that has ever been pasted into a chat, terminal log, or
-  screenshot.
-- Keep `.env`, `kaggle.json`, downloaded CSVs, ZIP/7z archives, MLflow databases,
-  and local Gold outputs out of Git.
-- Use Unity Catalog volumes rather than the disabled public DBFS root.
-
-## License
-
-This repository contains application code and pipeline logic. The Favorita
-dataset is provided by its original competition/data owner and is not included
-in this repository. Review the dataset's terms before redistribution.
